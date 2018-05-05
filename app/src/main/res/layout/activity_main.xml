@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.michael.netrequestimplmode.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="网络请求实现"
+        android:textColor="#666666"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开源框架:ref github or 其他开源平台\nAndroid-async-http(Loopj)\nvolley(google)\n\nbase on okhttp(square):\nretorfit-restAPI\nOKHttp-OKGo(lzy)\nOKHttp-Utils(zhy)\nxutils(wyoufif)\n\nNOhttp(yanzhenjie)\n\njava or 原生Android实现测试"/>
+
+    <ListView
+        android:id="@+id/lv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </ListView>
+
+</LinearLayout>
